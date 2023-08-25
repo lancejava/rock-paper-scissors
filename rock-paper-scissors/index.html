@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <h1 class="header">Rock Paper Scissors</h1>
+        <div class="scoreboard">
+            <div class ="score">Score</div>
+            <div class ="players">
+                <div id = "user">
+                    <h2 id ="title">User</h2>
+                    <div id="user-score">0</div>
+                </div>
+                <div id = "computer">
+                    <h2 id ="title" >Computer</h2>
+                    <div id="computer-score">0</div>
+                </div>
+            </div>
+        </div>
+        <div class = "round"> Paper beats Rock, you win!</div>
+        <div class="container">
+            <div class = "choice" id="r">
+                <img id = "crop-image" src="images/rock.jpeg">
+                <p>Rock</p>
+            </div>
+            <div class = "choice" id="p">
+                <img id = "crop-image" src="images/paper.jpeg">
+                <p>Paper</p>
+            </div>
+            <div class = "choice" id="s">
+                <img id = "crop-image" src="images/scissors.jpeg">
+                <p>Scissors</p>
+            </div>
+        </div>
+        <div class = "footer">
+            <p>Make your move.</p>
+        </div>
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>
