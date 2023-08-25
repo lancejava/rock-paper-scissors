@@ -1,0 +1,111 @@
+body{
+    font-family: sans-serif;
+    flex: 1;
+    margin: 0px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(226, 220, 211);
+    height: 100%;
+    width: 100%;
+}
+.header{
+    display: flex;
+    flex: 1;
+    background-color: rgb(46, 46, 46);
+    justify-content: center;
+    color: rgb(226, 220, 211);
+    padding: 10px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.scoreboard{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.players{
+    display: flex;
+    flex: 1;
+    gap: 75px;
+    font-size: 30px;
+}
+.players #title{
+    margin: 0px;
+    padding: 5px;
+    border: solid rgb(46, 46, 46);
+}
+#user{
+    justify-items: center;
+    align-content: center;
+
+}
+#score{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 4px;
+    
+}
+.score{
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+#user-score,
+#computer-score{
+    font-size: 25px;
+    background-color: rgb(46, 46, 46);
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+.round{
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+    margin: 20px;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 30px;
+    overflow: hidden
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#crop-image {
+    width: 150px;
+    height: auto;
+    margin: 0 0 0 0;
+    border-radius: 100%;
+    border: 10px solid rgb(46, 46, 46);;
+    object-fit: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transform-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+#crop-image:hover, #crop-image:focus, #crop-image:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.footer p{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 20px;
+}
